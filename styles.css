@@ -31,26 +31,18 @@ body {
 
 /* Header */
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#logo-link {
-    display: inline-block;
+#logo-link.logo-text {
+    font-family: 'Anek Kannada', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
     text-decoration: none;
-    margin-bottom: 10px;
+    color: #3573e7; /* change color if needed */
 }
 
-#logo {
-    max-width: 400px; /* Default size for larger screens */
-    height: auto;
-    display: block;
-    align-content: center;
+header {
+    padding-top: 16px;
 }
+
 
 /* Adjust size for mobile screens */
 @media (max-width: 768px) {
